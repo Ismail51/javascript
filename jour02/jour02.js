@@ -37,7 +37,7 @@ console.log(test !== bis);
 
 //06 condition 
 var limit = 50;
-var score = 64;
+var score = 45;
 if (score >= limit) {
 console.log("ok good!");  
 }
@@ -46,7 +46,7 @@ else {
 };
 
 //07 condition II
-var password = "azerty";
+var password = "azer";
 if (password.length > 5) {
     console.log("The password is secure")
 }
@@ -58,20 +58,20 @@ else{
 if (score >= limit  && password.length > 5)
 {
     console.log("Everything is good")
-}
-else if (score >= limit  && password.length > 5)
-{
+} else if (score >= limit  || password.length > 5) {
     console.log("Something is good")
+} 
+else{ console.log("Nothing is good");
 }
-if (score >= limit  && password.length > 5);
+
 
 
 
 //bonus
-var random = 6;
-if (random === 6) {
-    console.log("Yes I win!")
-}
-else { console.log("So close")
+ var random = 6;
+ if (random === 6) {
+     console.log("Yes I win!")
+ }
+ else { console.log("So close")
 
-}
+ }
