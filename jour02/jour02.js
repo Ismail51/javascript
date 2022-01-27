@@ -21,10 +21,11 @@ console.log(test * bis);
 console.log(test - bis);
 console.log(test % bis);
 console.log(test / bis);
+console.log(test ** bis);
 
 
 // 05 comparaison
-var test = 50;
+var test = 143;
 var bis = 219;
 console.log(test > bis);
 console.log(test < bis);
@@ -68,7 +69,7 @@ else{ console.log("Nothing is good");
 
 
 //bonus
- var random = 6;
+ var random = Math.random6;
  if (random === 6) {
      console.log("Yes I win!")
  }
