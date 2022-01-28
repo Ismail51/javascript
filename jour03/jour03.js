@@ -29,10 +29,15 @@ console.log(numbers);
 // exercice 5
 let total = 0;
 let limit = 10;
- for (let i = 0; i <= limit; i++) {
+for (let i = 0; i <= limit; i++) {
       total = total + i;
      
- }console.log(total);
+}console.log(total);
+
+// Exercice 6
+let sentance = "Hello Konexio!"
+for (sentance = []
+
 
 
 
