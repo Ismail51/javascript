@@ -21,7 +21,7 @@ console.log (object);
 
 // exercice 4
 let numbers = [ "4","10","8","12","6"];
-numbers.reverse([]);
+numbers.reverse();
 console.log(numbers);
 numbers.sort((a, b) => a - b);
 console.log(numbers);
@@ -29,7 +29,14 @@ console.log(numbers);
 // exercice 5
 let total = 0;
 let limit = 10;
-for (total = 0; total <= limit; total++) {
-    console.log(total);
-}
+ for (let i = 0; i <= limit; i++) {
+      total = total + i;
+     
+ }console.log(total);
+
+
+
+
+
+
 
