@@ -26,5 +26,14 @@ console.log(cat2.isCute);
 
     
 // 03 Even
+function checkIfeven(num) { 
+    console.log(num % 2)
+    if (num % 2 === 0) { 
+        console.log("even")
+    }
+    else {
+        console.log("odd")
+    }
+}
 
-
+checkIfeven(5)
