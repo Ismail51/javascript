@@ -20,6 +20,11 @@ let cats = [
     cat,cat2
 ];
 //cats[0].age;
-console.log(cats[0].age)
+console.log(cats[0].age);
+console.log(cat2.isCute);
     
+
+    
+// 03 Even
+
 
