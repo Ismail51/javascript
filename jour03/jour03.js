@@ -35,8 +35,13 @@ for (let i = 0; i <= limit; i++) {
 }console.log(total);
 
 // Exercice 6
-let sentance = "Hello Konexio!"
-for (sentance = []
+let sentance = "Hello Konexio!";             
+// let result = "";
+for (let i = sentance.length -1; i >= 0; i-- ) {
+    console.log(sentance[i]);
+
+}
+
 
 
 
