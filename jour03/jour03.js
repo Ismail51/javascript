@@ -36,7 +36,7 @@ for (let i = 0; i <= limit; i++) {
 
 // Exercice 6
 let sentance = "Hello Konexio!";             
-// let result = "";
+let result = "";
 for (let i = sentance.length -1; i >= 0; i-- ) {
     console.log(sentance[i]);
 

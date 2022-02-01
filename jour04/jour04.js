@@ -37,3 +37,23 @@ function checkIfeven(num) {
 }
 
 checkIfeven(5)
+
+// 04 Compare 
+function compare(num1,num2){
+    if(num1 > num2){
+        console.log("num 1 is bigger");
+        console.log(num1,"is bigger than", num2);
+    }
+    else if ("num1 < num2"){
+        console.log("num 2 is bigger");
+        console.log(num2, "is bigger than", num1);
+    }
+    else if (num1 === num2){
+        console.log("both are the");
+        console.log(num1,"and", num2, "are equal");
+    }
+    else {
+        console.log("error something happened");
+    }
+
+}
