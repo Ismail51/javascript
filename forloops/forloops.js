@@ -35,3 +35,7 @@ for(i=1; i<= 20 ; i++){
     num = Math.ceil(Math.random(i) * 6)
     console.log(num)
 }
+
+for (let i = 1; i <= 20; i++) {
+    
+}
