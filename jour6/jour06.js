@@ -19,7 +19,7 @@ function calculateAge(dateBirth) {
 calculateAge("2000")
 
 // 03 validator
-
+var prompt = require("prompt")
 
 
 
