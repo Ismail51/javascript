@@ -1,8 +1,9 @@
 // 01 countries
+
 const request = require("request");
 const { resourceLimits } = require("worker_threads");
 const apiBase = "https://restcountries.com/v3.1/all";
-let countriesNames = []
+let countriesNames = [];
 request.get (apiBase,(err,res,body) =>{
     // console.log(body);
     let countries = JSON.parse(body);
@@ -15,5 +16,12 @@ request.get (apiBase,(err,res,body) =>{
     }
 })
 
-
 console.log("request");
+
+// 02 Chuck Norris
+
+const getFacts = () => {
+    const url = "https://api.chucknorris.io/"
+    request.get(url, (err, response, data ))
+}
+

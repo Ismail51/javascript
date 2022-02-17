@@ -1,6 +1,6 @@
 // 01 file system
 
-var fs = require("fs");
+const fs = require("fs");
 fs.readFile("jour07.txt", function (err, data) {
     if (err) {
        console.error(err);
@@ -23,14 +23,18 @@ console.log(double);
 let longNames = [
     {
         firstName: "Jane",
-        lastName: "Doe"
+        lastName: "Doe",
     },
     {
         firstName: "John",
         lastName: "Smith",
     }
-];
-let shortNames = longNames.map(shortNames) =>{
-    return cur;
-};
-console.log(shortNames);
+]
+function shortNames(longNames){
+    return longNames.map((compactName) => {
+        var name = compactName.firstName + compactName.lastName;
+        return name;
+        }
+    )
+}
+console.log(shortNames(longNames));
