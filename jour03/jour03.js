@@ -71,9 +71,44 @@
 
 // 4 Order
 
-let numbers = [4,10,8,12,6]
+// let numbers = [4,10,8,12,6]
 // numbers.reverse()
-numbers.sort((a,b) => a - b)
-console.log(numbers);
+// numbers.sort((a,b) => a - b)
+// console.log(numbers);
 
 // 05 Boucle
+
+// let total = 0
+// let limit = 10
+// for (let i = 0; i <= limit; i++) {
+//     total+= i
+// console.log(total);
+// }
+
+// 06 Reverse
+// let sentance = "Hello Konexio !"
+// let myArray = sentance.split("");
+// let result = []
+// console.log(myArray)
+// for (let i= 0; i <myArray.length; i++) {
+// let item = myArray[i];
+// result.unshift(item)
+// }
+// console.log(result.join(""));
+
+
+// Bonus 
+var limit = 100
+for( let i = 0; i <= limit; i++){
+    if (i% 3 === 0 ){
+        // console.log("fizz",i);
+    }
+    // else if (i % 5 === 0){
+    //     // console.log("buzz",i);
+    if (i % 3 === 0 || i % 5 === 0){
+        console.log("fizzbuzz",i);
+    }  
+}
+   
+
+    
